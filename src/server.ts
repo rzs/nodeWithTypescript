@@ -9,9 +9,9 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
 app.get('/', async (req, res) => {
-  console.log('Hello from Node server with TypeScript in a dev container');
+  console.log('Hello from Node server with TypeScript in a devcontainer');
   res.status(200);
-  res.json({message: 'Response from Node server with TypeScript'});
+  res.json({message: 'Response from Node server with TypeScript in a devcontainer'});
 });
 
 export default app;
