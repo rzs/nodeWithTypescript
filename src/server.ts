@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
 app.get('/', async (req, res) => {
-  console.log('Hello from Node server with TypeScript');
+  console.log('Hello from Node server with TypeScript in a dev container');
   res.status(200);
   res.json({message: 'Response from Node server with TypeScript'});
 });
