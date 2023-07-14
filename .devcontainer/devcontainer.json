@@ -1,0 +1,11 @@
+{
+    "name": "NodeJS server with TypeScript",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "NODE_VERSION":"18"
+        }
+    },
+    "forwardPorts": [8080],
+    "extensions": ["ms-vscode-remote.remote-containers","dbaeumer.vscode-eslint"],
+}
