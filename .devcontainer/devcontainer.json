@@ -7,4 +7,5 @@
         }
     },
     "extensions": ["ms-vscode-remote.remote-containers","dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+    "postCreateCommand": "npm ci && npm run dev"
 }
