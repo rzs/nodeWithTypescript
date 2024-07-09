@@ -6,6 +6,11 @@
       "NODE_VERSION": "18"
     }
   },
-  "extensions": ["ms-vscode-remote.remote-containers", "dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
-  "postCreateCommand": "npm ci && npm run dev"
+  "extensions": [
+    "ms-vscode-remote.remote-containers",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "redhat.vscode-yaml"
+  ],
+  "postCreateCommand": "npm ci"
 }
